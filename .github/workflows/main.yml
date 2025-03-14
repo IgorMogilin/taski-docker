@@ -2,7 +2,8 @@ name: Main Taski WorkFlow
 
 on:
   push:
-    - main
+    branches:
+      - main
 jobs:
   checkout-and-print-tree:
     runs-on: ubuntu-latest
